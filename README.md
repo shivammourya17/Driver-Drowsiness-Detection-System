@@ -44,14 +44,17 @@ NumPy: Fundamental library for numerical computing in Python.
 Follow these steps to set up and run the project on your local machine.
 
 1️⃣ Clone the Repository
+```sh
 git clone https://github.com/shivammourya17/Driver-Drowsiness-Detection-System.git
-cd Driver-Drowsiness-Detection-System
+ ```
+
 
 2️⃣ Install Dependencies
 
 Install all required libraries:
-
+```sh
 pip install -r requirements.txt
+ ```
 
 3️⃣ Install Dlib
 
@@ -60,9 +63,10 @@ Windows: Install CMake and restart your terminal before installing dlib.
 Linux/macOS: If you face issues with dlib, follow this guide.
 
 4️⃣ Run the Application
+```sh
 python drowsiness_yawn.py --webcam 0 --alarm Alert.wav
+ ```
 
+## 🌟 Contributing
 
---webcam 0 → Uses default webcam (change number if multiple webcams).
-
---alarm Alert.wav → Path to alarm sound file.
+Feel free to contribute by creating pull requests or opening issues.
